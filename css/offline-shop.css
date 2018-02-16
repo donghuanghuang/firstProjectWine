@@ -1,0 +1,17 @@
+.main{
+    margin-left: 100px;
+}
+.main>.main_1{
+    width: 800px;
+    height: 500px;
+    background: #F3F1EC;
+}
+.main>p{
+    color: gray;
+}
+
+
+
+
+
+

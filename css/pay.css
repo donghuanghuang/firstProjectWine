@@ -1,0 +1,50 @@
+#nav li:nth-child(4){
+    background: #5E0000;
+}
+.pay_1{
+    width: 70%;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    border-bottom: 1px dotted lightgray;
+    color: gray;
+    font-size: 14px;
+}
+.pay_1 p{
+    margin-bottom: 20px;
+}
+.fixed li:first-child{
+    width: 54px;
+    height: 54px;
+    background: url("../img/right.png") -28px 2060px;
+    list-style: none;
+}
+.fixed li:nth-child(2){
+    width: 54px;
+    height: 54px;
+    background: url("../img/right.png") -28px 2800px;
+    list-style: none;
+}
+.fixed li:nth-child(3){
+    width: 54px;
+    height: 54px;
+    list-style: none;
+    background: #510000;
+}
+.fixed img{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.fixed{
+    width: 54px;
+    height: 162px;
+    background: black;
+    position: fixed;
+    display: block;
+    z-index: 5;
+    margin-left: 96%;
+}
+.fixed ul{
+    margin:0;
+    padding: 0;
+}

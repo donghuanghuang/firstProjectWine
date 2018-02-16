@@ -1,0 +1,29 @@
+.rt{
+    margin-top: 10px;
+}
+.rt1{
+    margin-top: 20px;
+}
+.fz{
+    font-size: 18px;
+}
+.fz1{
+    font-size: 15px;
+}
+.text_w {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: #F4F4F4;
+    margin-top: 1px;
+}
+.text_w_b{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: black;
+    color: white;
+}
+.cg{
+    color: gray;
+}

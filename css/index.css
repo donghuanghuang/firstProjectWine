@@ -1,0 +1,216 @@
+#contain{
+    width: 100%;
+    margin: 0 auto;
+}
+.index_1{
+    width: 100%;
+    height: 640px;
+    background:#510000 url("../img/p.png") no-repeat 600px;
+    background-size: 50%;
+    position: relative;
+}
+.index_1_1{
+    position: absolute;
+    left:10%;
+    top:30%;
+}
+.index_1_1 input[type=button]{
+    width: 200px;
+    height: 60px;
+    background:rgb(124, 32, 32);
+    border:none;
+    color: #dbc7c3;
+    font-size: 14px;
+}
+.index_1_1 input[type=button]:hover{
+    cursor: pointer;
+    background:#660101;
+    transition: .6s;
+}
+.index_1_1 h1{
+    color: #dbc7c3;
+    font-style: italic;
+}
+.index_2{
+    width: 100%;
+    height:1000px;
+    background:#560000;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+.index_2:before{
+    content: "";
+    display: table;
+}
+.index_2_1{
+    width: 400px;
+    height: 753px;
+    background: #000000 url("../img/ba.jpg") no-repeat 50px;
+    background-size: 180%;
+    padding-top: 100px;
+    padding-right: 400px;
+    margin-left: 100px;
+    /*text-align: center;*/
+}
+.index_2_1 h1{
+    width: 300px;
+    margin-left: 200px;
+}
+.index_2_1 input[type=button]{
+    width: 150px;
+    height: 50px;
+    border:1px solid white;
+    background: #5e0000;
+    color: lightgray;
+    margin-left: 300px;
+}
+.index_2_1 input[type=button]:focus{
+    outline:none;
+}
+.index_2_1 input[type=button]:hover{
+    background: #510000;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.index_2_2{
+    width: 540px;
+    height: 360px;
+    border: 8px solid white;
+    position: absolute;
+    left: 50%;
+    bottom: 35%;
+
+}
+.index_3{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    margin:0 auto;
+    color: #5e0000;
+    padding-top: 30px;
+}
+.index_3_1{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+.index_3_1 img{
+    width: 200px;
+}
+.index_3_1 ul{
+    margin: 0;
+    padding: 0;
+}
+.index_3_1 li{
+    width: 210px;
+    height:300px;
+    float: left;
+    list-style: none;
+    border: 1px solid rgba(229,229,229,1);
+    margin-left: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: gray !important;
+    transition: 1s;
+}
+.index_3_1 li:hover{
+    box-shadow: 1px 1px 3px 4px #E2E2E2;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+.fixed{
+    width: 54px;
+    height: 162px;
+    background: black;
+    position: fixed;
+    display: block;
+    z-index: 15;
+    margin-left: 96%;
+}
+.fixed ul{
+    margin:0;
+    padding: 0;
+}
+.fixed li:first-child{
+    width: 54px;
+    height: 54px;
+    background: url("../img/right.png") -28px 2060px;
+    list-style: none;
+}
+.fixed li:nth-child(2){
+    width: 54px;
+    height: 54px;
+    background: url("../img/right.png") -28px 2800px;
+    list-style: none;
+}
+.fixed li:nth-child(3){
+    width: 54px;
+    height: 54px;
+    list-style: none;
+    background: #510000;
+}
+.fixed img{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+#nav li:first-child{
+    background: #5E0000;
+}
+.index_4{
+    width: 100%;
+    height: 890px;
+    /*clear: both;*/
+    background:#000000 url("../img/bac.jpg") no-repeat 250px 5px;
+    background-size: 80%;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    top: 20px;
+}
+.index_4 .index_4_1{
+    width: 1000px;
+    height: 600px;
+    /*background: lightgray;*/
+    /*opacity: 0.2;*/
+    margin: 0 auto;
+    /*color: white;*/
+    margin-top: 50px;
+}
+.index_4 .index_4_1 ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+}
+.index_4 .index_4_1 ul li{
+    list-style: none;
+    width: 1000px;
+    height: 150px;
+    margin: 0;
+    /*padding: 0;*/
+    margin-top: -15px;
+    background:rgba(255,255,255,0.1);
+    transition:.6s;
+    /*color: white;*/
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    /*vertical-align: middle;*/
+}
+.index_4 .index_4_1 ul li p{
+    color: #ffffff;
+    font-size: 14px;
+}
+.index_4 .index_4_1 ul li p:nth-child(1){
+    font-size: 24px;
+    padding-top: 10px;
+    /*padding-top: 2px;*/
+}
+.index_4 .index_4_1 ul li:hover{
+    transform: translate(-50px);
+    background: none;
+}
+
+
