@@ -105,7 +105,7 @@ INSERT INTO wine_pic values
                          (null,15,'img/small_product/015_1.jpg','img/middle_product/015_1.jpg','img/large_product/015_1.jpg'),
                           (null,15,'img/small_product/015_2.jpg','img/middle_product/015_2.jpg','img/large_product/015_2.jpg'),
                            (null,15,'img/small_product/015_3.jpg','img/middle_product/015_3.jpg','img/large_product/015_3.jpg'),
-                            (null,15,'img/small_product/015_4.jpg','img/middle_product/015_4.jpg','img/large_product/015_4.jpg'),
+                            (null,15,'img/small_product/015_4.jpg','img/middle_product/015_4.jpg','img/large_product/015_4.jpg');
 
 
 
